@@ -1,8 +1,3 @@
-//
-//  MemoryGame.swift
-//
-//  Created by Rostyslav on 24.01.2022.
-//
 
 import Foundation
 
