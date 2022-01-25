@@ -27,6 +27,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
                     if cards[chosenIndex].hasAlreadyBeenSeen || cards[potentialMatchIndex].hasAlreadyBeenSeen {
                         score -= 1
                     }
+                    
                 }
                 indexOfTheOneAndOnlyFaceUpCard = nil
                 
