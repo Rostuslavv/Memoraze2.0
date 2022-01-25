@@ -1,17 +1,19 @@
 //
-//  Memoraze2_0App.swift
-//  Memoraze2.0
+//  SwiftUITest1App.swift
 //
-//  Created by Rostyslav on 25.01.2022.
+//  Created by Rostyslav on 21.01.2022.
 //
 
 import SwiftUI
 
 @main
-struct Memoraze2_0App: App {
+struct SwiftUITest1App: App {
+    let game = EmojiMemoryGame()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: game)
         }
     }
 }
+
